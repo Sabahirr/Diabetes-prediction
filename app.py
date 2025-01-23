@@ -4,7 +4,7 @@ import pickle
 
 st.markdown("<h6><b>Zehmet olmazsa, dil seçin. Please, select a language. Пожалуйста, выберите язык. Bitte, wählen Sie eine Sprache.</b></h6>", unsafe_allow_html=True)
 language = st.selectbox(" ", ('Azərbaycan dili', 'English', 'Русский', 'Deutsch'))
-st.image('diabetes.jpg', use_column_width=True)
+st.image('diabetes.jpg', use_container_width=True)
 
 
 if language == 'Azərbaycan dili':
